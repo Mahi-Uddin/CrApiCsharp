@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CrApiCsharp
 {
-    public class Class1
+    public class WrapperVersion
     {
+        public string version { get; set; }
     }
 }
