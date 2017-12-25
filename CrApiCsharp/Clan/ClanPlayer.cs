@@ -7,58 +7,62 @@ using System.Threading.Tasks;
 namespace CrApiCsharp
 {
     /// <summary>
-    /// Short summary of player (from clan view)
+    /// Short summary of the player (from clan view)
     /// </summary>
     public class ClanPlayer
     {
         /// <summary>
-        /// Name of player
+        /// Name of the player
         /// </summary>
         public string name;
         /// <summary>
-        /// Arena of player
+        /// TAG of the player
         /// </summary>
-        public Arena arena;
+        public string tag;
         /// <summary>
-        /// Role of player
+        /// Role of the player
         /// </summary>
-        public int role;
+        public int rank;
         /// <summary>
-        /// Level of player
+        /// Role of the player
+        /// </summary>
+        public string role;
+        /// <summary>
+        /// Level of the player
         /// </summary>
         public int expLevel;
         /// <summary>
-        /// Trophies of player
+        /// Trophies of the player
         /// </summary>
         public int trophies;
         /// <summary>
-        /// Donations from player
+        /// Number of crowns, player collected in the last clan chest
+        /// </summary>
+        public int clanChestCrowns;
+        /// <summary>
+        /// Percentage of number of crowns, player collected last clan chest
+        /// </summary>
+        public float clanChestCrownsPercent;
+        /// <summary>
+        /// Donations donated by the player
         /// </summary>
         public int donations;
         /// <summary>
-        /// Current rank in clan
+        /// Donations received from the clan
         /// </summary>
-        public int currentRank;
+        public int donationsReceived;
+        /// <summary>
+        /// Donations delta
+        /// </summary>
+        public int donationsDelta;
+        /// <summary>
+        /// Arena of the player
+        /// </summary>
+        public Arena arena;
         /// <summary>
         /// Previous rank in clan
         /// </summary>
         public int previousRank;
-        /// <summary>
-        /// Number of crowns, player collected last clan chest
-        /// </summary>
-        public int clanChestCrowns;
-        /// <summary>
-        /// TAG of player
-        /// </summary>
-        public string tag;
-        /// <summary>
-        /// Name of the role of the player in the clan
-        /// </summary>
-        public string roleName;
-        /// <summary>
-        /// Score of player
-        /// </summary>
-        public int score;
 
         /// <summary>
         /// Returns Player's name

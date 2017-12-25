@@ -7,30 +7,30 @@ using System.Threading.Tasks;
 namespace CrApiCsharp
 {
     /// <summary>
-    /// Clash Royale Card
+    /// Card of Current Deck
     /// </summary>
-    public class Card
+    public class CurrentDeckCard
     {
         /// <summary>
-        /// Name of card
+        /// Name of the card
         /// </summary>
         public string name;
         /// <summary>
-        /// Level of card
+        /// Level of the card
         /// </summary>
         public int level;
         /// <summary>
-        /// Max Level of card
+        /// Max Level of the card
         /// </summary>
         public int maxLevel;
         /// <summary>
-        /// Number of cards that the player has
+        /// Count of the card
         /// </summary>
         public int count;
         /// <summary>
         /// IconURLs of the card
         /// </summary>
-        public IconURLs iconUrls;
+        public int iconUrls;
         /// <summary>
         /// Card key
         /// </summary>
@@ -44,7 +44,7 @@ namespace CrApiCsharp
         /// </summary>
         public string type;
         /// <summary>
-        /// Rarity of the card
+        /// Card rarity
         /// </summary>
         public string rarity;
         /// <summary>
@@ -55,14 +55,5 @@ namespace CrApiCsharp
         /// Card description
         /// </summary>
         public string description;
-
-        /// <summary>
-        /// Returns the card's name
-        /// </summary>
-        /// <returns>Returns the card's name</returns>
-        public override string ToString()
-        {
-            return name;
-        }
     }
 }

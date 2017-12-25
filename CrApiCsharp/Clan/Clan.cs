@@ -12,25 +12,29 @@ namespace CrApiCsharp
     public class Clan
     {
         /// <summary>
-        /// Name of clan
+        /// Tag of the clan
+        /// </summary>
+        public string tag;
+        /// <summary>
+        /// Name of the clan
         /// </summary>
         public string name;
         /// <summary>
-        /// Clan badge
+        /// Clan description
         /// </summary>
-        public ClanBadge badge;
+        public string description;
         /// <summary>
-        /// TODO
+        /// Clan joinable type
         /// </summary>
         public int type;
-        /// <summary>
-        /// Number of members
-        /// </summary>
-        public int memberCount;
         /// <summary>
         /// Clan score
         /// </summary>
         public int score;
+        /// <summary>
+        /// Number of members
+        /// </summary>
+        public int memberCount;
         /// <summary>
         /// Required trophies to join
         /// </summary>
@@ -40,29 +44,18 @@ namespace CrApiCsharp
         /// </summary>
         public int donations;
         /// <summary>
-        /// TODO
+        /// Clan's last clanchest info
         /// </summary>
-        public int currentRank;
+        public ClanChest clanChest;
         /// <summary>
-        /// Clan description
+        /// Badge ID
         /// </summary>
-        public string description;
-        /// <summary>
-        /// Clan tag
-        /// </summary>
-        public string tag;
-        /// <summary>
-        /// TODO
-        /// </summary>
-        public string typeName;
+        public int badge;
         /// <summary>
         /// Clan region (country)
         /// </summary>
         public ClanRegion region;
-        /// <summary>
-        /// Clan's last clanchest info
-        /// </summary>
-        public ClanChest clanChest;
+
         /// <summary>
         /// Clan's members (short summary of each player)
         /// </summary>

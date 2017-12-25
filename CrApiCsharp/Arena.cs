@@ -12,9 +12,9 @@ namespace CrApiCsharp
     public class Arena
     {
         /// <summary>
-        /// URL of the arena image
+        /// Arena name (like "Legendary Arena")
         /// </summary>
-        public string imageUrl;
+        public string name;
         /// <summary>
         /// Arena number (like "Arena 12")
         /// </summary>
@@ -23,10 +23,6 @@ namespace CrApiCsharp
         /// Arena ID
         /// </summary>
         public int arenaID;
-        /// <summary>
-        /// Arena name (like "Legendary Arena")
-        /// </summary>
-        public string name;
         /// <summary>
         /// Arena minimum trophy limit
         /// </summary>

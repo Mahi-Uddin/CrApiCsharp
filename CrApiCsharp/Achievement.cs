@@ -6,26 +6,27 @@ using System.Threading.Tasks;
 
 namespace CrApiCsharp
 {
-    /// <summary>
-    /// Badge of clan
-    /// </summary>
-    public class ClanBadge
+    public class Achievement
     {
         /// <summary>
-        /// Name of the clan badge
+        /// Level of card
         /// </summary>
         public string name;
         /// <summary>
-        /// Category of the clan badge
+        /// Stars in the achievement
         /// </summary>
-        public string category;
+        public int stars;
         /// <summary>
-        /// Badge URL
+        /// Current achievement value
         /// </summary>
-        public int id;
+        public int value;
         /// <summary>
-        /// URL to badge image
+        /// Achievement target
         /// </summary>
-        public string image;
+        public int target;
+        /// <summary>
+        /// Achievement info
+        /// </summary>
+        public string info;
     }
 }

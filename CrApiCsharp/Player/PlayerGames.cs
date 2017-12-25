@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CrApiCsharp
 {
     /// <summary>
-    /// Stats of player's games
+    /// Stats of the player's games
     /// </summary>
     public class PlayerGames
     {
@@ -31,9 +31,5 @@ namespace CrApiCsharp
         /// Player's draws
         /// </summary>
         public int draws;
-        /// <summary>
-        /// Player's current win streak
-        /// </summary>
-        public int currentWinStreak;
     }
 }

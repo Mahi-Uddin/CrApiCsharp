@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CrApiCsharp
+﻿namespace CrApiCsharp
 {
     /// <summary>
-    /// Clash Royale Card
+    /// Team Deck Card
     /// </summary>
-    public class Card
+    public class OpponentDeckCard
     {
         /// <summary>
         /// Name of card
@@ -23,10 +17,6 @@ namespace CrApiCsharp
         /// Max Level of card
         /// </summary>
         public int maxLevel;
-        /// <summary>
-        /// Number of cards that the player has
-        /// </summary>
-        public int count;
         /// <summary>
         /// IconURLs of the card
         /// </summary>
@@ -55,14 +45,5 @@ namespace CrApiCsharp
         /// Card description
         /// </summary>
         public string description;
-
-        /// <summary>
-        /// Returns the card's name
-        /// </summary>
-        /// <returns>Returns the card's name</returns>
-        public override string ToString()
-        {
-            return name;
-        }
     }
 }

@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 namespace CrApiCsharp
 {
     /// <summary>
-    /// Clan region
+    /// Top Player's Clan description
     /// </summary>
-    public class ClanRegion
+    public class TopPlayerClan
     {
         /// <summary>
-        /// Country name
+        /// Clan Tag
+        /// </summary>
+        public string tag;
+        /// <summary>
+        /// Clan Name
         /// </summary>
         public string name;
         /// <summary>
-        /// Region or Country (Europe X Germany)
+        /// Clan Badge ID
         /// </summary>
-        public bool isCountry;
-        /// <summary>
-        /// Country code
-        /// </summary>
-        public string code;
+        public string badge;
     }
 }

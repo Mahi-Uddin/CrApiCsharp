@@ -24,6 +24,14 @@ namespace CrApiCsharp
         /// </summary>
         public string role;
         /// <summary>
+        /// Donations to clan
+        /// </summary>
+        public int donations;
+        /// <summary>
+        /// Donations received from clan
+        /// </summary>
+        public int donationsReceived;
+        /// <summary>
         /// Clan badge
         /// </summary>
         public ClanBadge badge;

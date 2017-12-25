@@ -29,7 +29,11 @@ namespace CrApiCsharp_Example_Usage
         private void btnGetPlayerInfo_Click(object sender, EventArgs e)
         {
             string json = API.Get(EndPoints.Player, tbTag.Text);
-            rtbPlayerInfo.Text = json;
+            Player player = API.Parse<Player>(json);
+            foreach (var achievement in player.achievements)
+            {
+                rtbPlayerInfo.AppendText(achievement.info + Environment.NewLine);
+            }
         }
     }
 }

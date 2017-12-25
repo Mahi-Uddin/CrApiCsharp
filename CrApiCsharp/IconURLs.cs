@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace CrApiCsharp
 {
-    /// <summary>
-    /// Class that contains the best clans in Clash Royale
-    /// </summary>
-    public class TopClans
+    public class IconURLs
     {
         /// <summary>
-        /// Top clans
+        /// URL of the medium size icon
         /// </summary>
-        public TopClan[] clans;
+        public string medium;
     }
 }

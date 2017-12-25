@@ -24,29 +24,13 @@ namespace CrApiCsharp
         /// </summary>
         public int trophies;
         /// <summary>
-        /// Player's legendary trophies
+        /// Player's arena
         /// </summary>
-        public int legendaryTrophies;
+        public Arena arena;
         /// <summary>
-        /// Changed player his name already?
+        /// Player's clan summary
         /// </summary>
-        public bool nameChanged;
-        /// <summary>
-        /// Global rank of player (may be null)
-        /// </summary>
-        public int? globalRank;
-        /// <summary>
-        /// Current deck of player
-        /// </summary>
-        public Card[] currentDeck;
-        /// <summary>
-        /// Previous seasons data of player
-        /// </summary>
-        public PlayerSeason[] previousSeasons;
-        /// <summary>
-        /// Player's experience
-        /// </summary>
-        public PlayerExperience experience;
+        public PlayerClan clan;
         /// <summary>
         /// Player's stats
         /// </summary>
@@ -60,20 +44,28 @@ namespace CrApiCsharp
         /// </summary>
         public PlayerChestCycle chestCycle;
         /// <summary>
-        /// Player's shop offers
+        /// Player's league statistics
         /// </summary>
-        public PlayerShopOffers shopOffers;
+        public LeagueStats[] LeagueStats;
         /// <summary>
-        /// Player's clan summary
+        /// Current decks of the player
         /// </summary>
-        public PlayerClan clan;
+        public Card[] currentDeck;
         /// <summary>
-        /// Player's arena
+        /// Unlocked cards of the player
         /// </summary>
-        public Arena arena;
+        public Card[] cards;
+        /// <summary>
+        /// Achievements of the player
+        /// </summary>
+        public Achievement[] achievements;
+        /// <summary>
+        /// Player's battles
+        /// </summary>
+        public Battle[] battles;
 
         /// <summary>
-        /// Return string representation of player, returns player's name
+        /// Return string representation of the player, returns player's name
         /// </summary>
         /// <returns></returns>
         public override string ToString()

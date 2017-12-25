@@ -14,14 +14,10 @@ namespace CrApiCsharp
         /// <summary>
         /// Number of collected crowns
         /// </summary>
-        public int clanChestCrowns;
+        public int crowns;
         /// <summary>
-        /// Percentage, showing how much % crowns of maximum number of crowns clan collected
+        /// Clan chest status
         /// </summary>
-        public int clanChestCrownsPercent;
-        /// <summary>
-        /// Required number of crowns to 10/10 chest
-        /// </summary>
-        public int clanChestCrownsRequired;
+        public string status;
     }
 }

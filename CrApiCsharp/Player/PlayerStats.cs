@@ -12,21 +12,9 @@ namespace CrApiCsharp
     public class PlayerStats
     {
         /// <summary>
-        /// Player's legendary trophies
-        /// </summary>
-        public int legendaryTrophies;
-        /// <summary>
         /// Number of cards that player won in tournaments
         /// </summary>
         public int tournamentCardsWon;
-        /// <summary>
-        /// Maximum wins in challenge
-        /// </summary>
-        public int challengeMaxWins;
-        /// <summary>
-        /// Number of cards that player won in challenges
-        /// </summary>
-        public int challengeCardsWon;
         /// <summary>
         /// Best player's trophies
         /// </summary>
@@ -40,13 +28,21 @@ namespace CrApiCsharp
         /// </summary>
         public int cardsFound;
         /// <summary>
-        /// Name of player's favorite card
+        /// The player's favorite card
         /// </summary>
-        public string favoriteCard;
+        public FavouriteCard favoriteCard;
         /// <summary>
         /// Player's total donations
         /// </summary>
         public int totalDonations;
+        /// <summary>
+        /// Maximum wins in challenge
+        /// </summary>
+        public int challengeMaxWins;
+        /// <summary>
+        /// Number of cards that player won in challenges
+        /// </summary>
+        public int challengeCardsWon;
         /// <summary>
         /// Player's current level
         /// </summary>

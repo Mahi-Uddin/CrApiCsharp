@@ -12,20 +12,28 @@ namespace CrApiCsharp
     public class PlayerChestCycle
     {
         /// <summary>
-        /// Chest cycle position
+        /// Upcoming chest cycle
         /// </summary>
-        public int position;
+        public string[] upcoming;
         /// <summary>
         /// Super Magical Chest Position
         /// </summary>
-        public int superMagicalPos;
+        public int superMagical;
+        /// <summary>
+        /// Magical Chest Position
+        /// </summary>
+        public int magical;
         /// <summary>
         /// Legendary Chest Position
         /// </summary>
-        public int legendaryPos;
+        public int legendary;
         /// <summary>
         /// Epic Chest Position
         /// </summary>
-        public int epicPos;
+        public int epic;
+        /// <summary>
+        /// Giant Chest Position
+        /// </summary>
+        public int giant;
     }
 }
