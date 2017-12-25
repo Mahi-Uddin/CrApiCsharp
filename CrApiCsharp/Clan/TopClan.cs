@@ -35,7 +35,7 @@ namespace CrApiCsharp
         /// <summary>
         /// Badge ID
         /// </summary>
-        public int badge;
+        public ClanBadge badge;
         /// <summary>
         /// Clan region (country)
         /// </summary>

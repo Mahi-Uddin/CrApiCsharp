@@ -14,7 +14,7 @@ namespace CrApiCsharp
         /// <summary>
         /// Number of collected crowns
         /// </summary>
-        public int crowns;
+        //public int crowns;
         /// <summary>
         /// Clan chest status
         /// </summary>

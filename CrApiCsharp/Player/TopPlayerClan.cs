@@ -22,6 +22,6 @@ namespace CrApiCsharp
         /// <summary>
         /// Clan Badge ID
         /// </summary>
-        public string badge;
+        public ClanBadge badge;
     }
 }

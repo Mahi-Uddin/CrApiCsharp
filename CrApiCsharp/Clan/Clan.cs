@@ -26,7 +26,7 @@ namespace CrApiCsharp
         /// <summary>
         /// Clan joinable type
         /// </summary>
-        public int type;
+        public string type;
         /// <summary>
         /// Clan score
         /// </summary>
@@ -50,7 +50,7 @@ namespace CrApiCsharp
         /// <summary>
         /// Badge ID
         /// </summary>
-        public int badge;
+        public ClanBadge badge;
         /// <summary>
         /// Clan region (country)
         /// </summary>

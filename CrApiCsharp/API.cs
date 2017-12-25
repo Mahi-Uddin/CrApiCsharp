@@ -1,11 +1,8 @@
 ﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Net;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace CrApiCsharp
 {
@@ -23,6 +20,7 @@ namespace CrApiCsharp
         /// </summary>
         public API(string authToken)
         {
+            new Thread(new ThreadStart(UpdateChecker.Check));
             AuthToken = authToken;
         }
         
@@ -42,7 +40,7 @@ namespace CrApiCsharp
         /// </summary>
         /// <param name="input">JSON string to deserialize</param>
         /// <returns>Returns deserialize class</returns>
-        public T Parse<T>(string input) where T : class
+        public T Parse<T>(string input)
         {
             return JsonConvert.DeserializeObject<T>(input);
         }
