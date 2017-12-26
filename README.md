@@ -24,3 +24,6 @@ dotnet add package CrApiCsharp --version 0.0.0.1
 
 > To start, initialize `API` class: 
 `API api = new API("your_developer_key_here");`.
+
+## Support
+For any kind of questions, contact me with [Email](mailto:zihadmahiuddin@gmail.com), [Facebook](http://facebook.com/zihadmahiuddin), [Twitter](http://twitter.com/MahiUddinZihad), [Instagram](http://instagram.com/zihadmahiuddin) or Discord[Zihad#6591].
